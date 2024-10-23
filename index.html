@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fotogram</title>
+  <link rel="icon" type="image.png" href="./assets/favicon_fotogram.png" />
+
+  <link rel="stylesheet" href="./style.css" />
+  <script src="script.js"></script>
+  <script src="template.js"></script>
+</head>
+
+<body onload="render()">
+  <header>
+    <div class="max_width">
+      <img class="header-img" src="./assets/logo_fotogram.svg" alt="Logo" />
+    </div>
+  </header>
+
+  <main>
+    <div class="max_width">
+      <div>
+        <h1>Safari Tour</h1>
+        <div onclick="closeOverlay()" id="overlay" class="overlay d-none">
+
+        </div>
+        <div class="padding">
+          <div onclick="render2()" class="galery" id="content">
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-center max_width">
+      <img class="footer-logo" src="./assets/favicon_fotogram.png" alt="Logo" />
+      <p>© 2024 Fotogram GmbH</p>
+      <a target="_blank" href="https://icons8.com">Icons from Icons8</a>
+    </div>
+  </footer>
+</body>
+
+</html>
